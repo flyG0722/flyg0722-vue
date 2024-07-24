@@ -11,8 +11,8 @@
 
       </div>
     </div>
-    <HeaderNav></HeaderNav>
   </div>
+  <HeaderNav></HeaderNav>
 </template>
 
 <script setup lang="ts">
@@ -21,7 +21,6 @@
 
 <style scoped lang="scss">
 .header-container {
-  height: 40vh;
   background: pink;
   position: relative;
   .card-desc {
@@ -77,11 +76,6 @@
         width: 100px;
       } 
     }
-  }
-  .navbar {
-    position: absolute;
-    bottom: 10px;
-    left: 30px;
   }
 }
 </style>

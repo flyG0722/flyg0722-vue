@@ -33,11 +33,10 @@ function navigateTo(path: string) {
 </script>
 <style scoped lang="scss">
   .navbar {
-    position: absolute;
-    bottom: 10px;
-    left: 30px;
+    margin-top: 130px;
     display: flex; /* Flexbox布局使导航项水平排列 */
     gap: 30px; /* 项目间距 */
+    flex-wrap: wrap;
 
     .navbar-item {
       padding: 5px 15px;
@@ -45,6 +44,7 @@ function navigateTo(path: string) {
       text-align: center;
       border-radius: 5px;
       transition: background 0.5s ease, color 0.5s ease;
+      flex: 1 1 auto;
       &.active {
         background: #b0a8a8;
         color: #fff;
