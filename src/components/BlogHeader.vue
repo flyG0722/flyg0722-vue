@@ -33,12 +33,32 @@
       bottom: 15px;
       left: 160px;
       font-size: 30px;
+      @media (max-width: 768px) {
+        bottom: 13px;
+        left: 140px;
+        font-size: 27px;
+      }
+      @media (max-width: 490px) {
+        bottom: 10px;
+        left: 130px;
+        font-size: 25px;
+      } 
     }
     .desc-signature {
       position: absolute;
       bottom: -35px;
       left: 160px;
       font-size: 20px;
+      @media (max-width: 768px) {
+        bottom: -35px;
+        left: 140px;
+        font-size: 17px;
+      }
+      @media (max-width: 490px) {
+        bottom: -35px;
+        left: 130px;
+        font-size: 15px;
+      } 
     }
     .my-icon {
       height: 120px;
@@ -48,6 +68,14 @@
       border-radius: 15px;
       bottom: -40px;
       left: 20px;
+      @media (max-width: 768px) {
+        height: 110px;
+        width: 110px;
+      }
+      @media (max-width: 490px) {
+        height: 100px;
+        width: 100px;
+      } 
     }
   }
   .navbar {

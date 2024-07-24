@@ -22,5 +22,15 @@ import BlogHeaderVue from "@/components/BlogHeader.vue";
     padding-top: 0;
     border: 3px solid #fff;
     border-top: none;
+
+    @media (max-width: 768px) {
+      width: 80vw;
+    }
+    @media (max-width: 490px) {
+      width: 95vw;
+      padding: 0.5vw;
+      border-width: 0.1vw;
+    } 
   }
+  
 </style>
