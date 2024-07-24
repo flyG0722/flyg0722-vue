@@ -1,0 +1,68 @@
+// reset.scss
+
+/* 重置全局的 margin 和 padding */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 设置全局字体样式 */
+body {
+  font-family: "Pingfang SC", LiHei Pro Medium, "Microsoft YaHei", "微软雅黑", arial;; /* 根据项目需求设置具体的字体 */
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9; /* 默认背景色 */
+}
+
+/* 移除默认的列表样式 */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 移除默认的链接样式 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 设置表格的默认样式 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 确保图片和视频响应式 */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 统一 form 元素的样式 */
+button,
+input,
+textarea,
+select {
+  font: inherit; /* 继承字体样式 */
+}
+
+/* 隐藏文本区域的边框 */
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+/* 取消 form 元素的默认样式 */
+legend {
+  border: none;
+}
+
+/* 统一默认的块级元素的边距 */
+h1, h2, h3, h4, h5, h6, div{
+  margin: 0;
+  font-weight: normal;
+}
