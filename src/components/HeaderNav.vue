@@ -33,7 +33,7 @@ function navigateTo(path: string) {
 </script>
 <style scoped lang="scss">
   .navbar {
-    margin-top: 130px;
+    margin-top: 50px;
     display: flex; /* Flexbox布局使导航项水平排列 */
     gap: 30px; /* 项目间距 */
     flex-wrap: wrap;
