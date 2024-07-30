@@ -21,12 +21,11 @@
 
 <style scoped lang="scss">
 .header-container {
+  background: pink;
   position: relative;
   .card-desc {
     height: 30vh;
-    background: url('@/assets/images/batterCalls.avif') no-repeat;
-    background-size: cover;
-    background-position-y:  -98px;
+    background: rgb(203, 203, 208);
     position: relative;
     .desc-name {
       position: absolute;
@@ -64,9 +63,6 @@
       height: 120px;
       width: 120px;
       background: yellow;
-      background: url('@/assets/images/batterHeadImage.avif') no-repeat;
-      background-size: cover;
-      background-position-x: -30px;
       position: absolute;
       border-radius: 15px;
       bottom: -40px;
