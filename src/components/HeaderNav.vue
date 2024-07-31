@@ -14,8 +14,8 @@
 import { useRouter, useRoute } from 'vue-router'
 
 const links = [
-  { name: '首页', path: '/' },
-  { name: '随笔', path: '/notes' },
+  { name: '随笔', path: '/' },
+  { name: '问题总结', path: '/notes' },
   { name: '知识库', path: '/knowledge' },
   { name: '喜好', path: '/hobby' },
 ]
