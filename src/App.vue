@@ -1,11 +1,9 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import BlogHeaderVue from "@/components/BlogHeader.vue";
 </script>
 
 <template>
   <div class="main-container">
-    <BlogHeaderVue></BlogHeaderVue>
     <RouterView />
   </div>
 </template>
